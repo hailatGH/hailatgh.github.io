@@ -7,8 +7,6 @@ authors = [
 ]
 requires-python = ">=3.13"
 dependencies = [
-    "markdown-pdf (>=1.13.1,<2.0.0)",
-    "markdown (>=3.10.2,<4.0.0)",
     "weasyprint (>=68.1,<69.0)"
 ]
 
