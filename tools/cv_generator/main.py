@@ -14,10 +14,12 @@ def generate_pdf_weasyprint():
         current_dir = Path(__file__).parent
         html_file = current_dir / "src" / "main.html"
         output_file = current_dir / "docs" / filename
+        latest_output_file = current_dir / "docs" / "latest_CV.pdf"
         
         print("Generating SINGLE PAGE PDF using weasyprint...")
         print(f"Input: {html_file}")
         print(f"Output: {output_file}")
+        print(f"Latest Output: {latest_output_file}")
         
         css_style = '''
             @page {
@@ -34,8 +36,13 @@ def generate_pdf_weasyprint():
             str(output_file),
             stylesheets=[CSS(string=css_style)]
         )
+        HTML(filename=str(html_file)).write_pdf(
+            str(latest_output_file),
+            stylesheets=[CSS(string=css_style)]
+        )
         
         print(f"✓ PDF generated successfully: {output_file}")
+        print(f"✓ Latest PDF updated: {latest_output_file}")
         return True
         
     except ImportError:

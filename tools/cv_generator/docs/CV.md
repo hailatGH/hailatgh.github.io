@@ -57,30 +57,30 @@ Highly skilled DevOps Engineer with **4+ years of production experience** specia
 
 ## Featured Projects
 
-### **Exponent Kubernetes Service (XKS)**
-- **Problem Solved:** Overcame the lack of managed Kubernetes services on niche cloud providers (Infomaniak, Exoscale) by engineering a custom solution to achieve automated lifecycle management and horizontal cluster autoscaling.
+### **Custom Kubernetes Platform**
+- **Problem Solved:** Overcame the lack of managed Kubernetes services on niche cloud providers by engineering a custom solution to achieve automated lifecycle management and horizontal cluster autoscaling.
 - **Tools Used:** Python, RKE2, Terraform, Terragrunt, Cloud-Init, Packer, Envoy, Ansible
 - **Impact:** Built automation framework provisioning self-hosted RKE2 clusters using custom CRDs and Terraform, managing 8 production clusters and 50+ nodes with 95% reduction in manual deployment effort.
 
-### **Datacycle**
+### **Database Backup Orchestrator**
 - **Problem Solved:** Addressed the need for a non-invasive, decentralized backup mechanism for diverse CNPG workloads running on Kubernetes.
 - **Tools Used:** Python, Kubernetes API, S3-Compatible Storage (MinIO/AWS S3), Poetry.
 - **Impact:** Built K8s-native backup automation using resource annotations to auto-discover and backup 30+ database instances with 99.99% success rate, supporting multi-cloud retention and offsite synchronization without manual configuration.
 
-### **Exponent Site to Site VPN (XSSV)**
+### **Multi-Tenant VPN Gateway**
 - **Problem Solved:** Resolved complex secure connectivity requirements for third-party clients needing isolated access to internal Kubernetes services without compromising the primary network.
-- **Tools Used:** StrongSwan (IPsec), Terragrunt, OpenStack (Infomaniak), Bash.
+- **Tools Used:** StrongSwan (IPsec), Terragrunt, OpenStack, Bash.
 - **Impact:** Architected a multi-tenant VPN relay system using a *unique two-hop IPsec tunnel* (`Customer <-> Relay VM <-> K8s Pod`), supporting 8 concurrent client connections. Ensured network isolation and unique NAT-T port mapping for multiple providers while centralizing traffic management.
 
-### **Chart Generic**
+### **Universal Helm Template**
 - **Problem Solved:** Eliminated "configuration drift" and duplicated Helm code across dozens of microservices.
 - **Tools Used:** Helm, Kubernetes, YAML.
 - **Impact:** Created a versatile "Standard Library" Helm chart that supports both `Deployment` and `StatefulSet` via simple value toggles, adopted by 60+ microservices. Included pre-configured patterns for Ingress Nginx, Traefik, Cert-Manager, and horizontal autoscaling, *reducing new service onboarding time by 80%*.
 
-### **Sentry Gateway**
-- **Problem Solved:** Optimized error tracking and security by abstracting project-specific Sentry DSNs and providing a unified entry point for error reporting.
+### **Error Tracking Proxy**
+- **Problem Solved:** Optimized error tracking and security by abstracting project-specific DSNs and providing a unified entry point for error reporting.
 - **Tools Used:** FastAPI, Python, Docker.
-- **Impact:** Built a centralized middleware proxy that routes application errors to appropriate Sentry projects while managing sensitive project tokens at the gateway level, improving security and event filtering.
+- **Impact:** Built a centralized middleware proxy that routes application errors to appropriate monitoring projects while managing sensitive project tokens at the gateway level, improving security and event filtering.
 
 ### **Infrastructure Libraries (Terraform Modules & GitLab CI Templates)**
 - **Problem Solved:** Standardized organizational security and deployment patterns to ensure consistent quality across all engineering teams.
@@ -89,10 +89,10 @@ Highly skilled DevOps Engineer with **4+ years of production experience** specia
 
 ## Additional Deployment Projects
 
-- **Africa CDC & Data Repository:** Hybrid Azure-Hetzner infrastructure utilizing Azure Container Apps, PostgreSQL Flexible Server, Data Lake Gen2, and automated deployment of ClickHouse, Apache Superset, n8n, and DHIS2 for centralized health data analytics.
-- **Case Tracking System:** Full-stack GCP deployment with Cloud Run microservices, Firebase authentication, Datastream-to-BigQuery pipeline, and enterprise-grade monitoring and security policies.
-- **KGI Platform:** AWS-based monorepo with ECS Fargate services, RDS PostgreSQL, Site-to-Site VPN, SQS event processing, and automated GitHub Actions deployment pipelines.
-- **ROE Chatbot:** DigitalOcean App Platform deployment with managed PostgreSQL clusters, VPC networking, container registry, and Infisical secret management.
+- **Healthcare Analytics Platform:** Hybrid Azure infrastructure utilizing Azure Container Apps, PostgreSQL Flexible Server, Data Lake Gen2, and automated deployment of ClickHouse, Apache Superset, and workflow automation for centralized health data analytics.
+- **Case Management Platform:** Full-stack GCP deployment with Cloud Run microservices, Firebase authentication, Datastream-to-BigQuery pipeline, and enterprise-grade monitoring and security policies.
+- **Enterprise Service Platform:** AWS-based monorepo with ECS Fargate services, RDS PostgreSQL, Site-to-Site VPN, SQS event processing, and automated GitHub Actions deployment pipelines.
+- **Conversational AI Platform:** DigitalOcean App Platform deployment with managed PostgreSQL clusters, VPC networking, container registry, and secret management.
 
 ## Education
 
