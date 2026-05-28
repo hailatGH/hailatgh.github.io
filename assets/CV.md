@@ -8,7 +8,7 @@
 
 ## Professional Summary
 
-DevOps Engineer with **4+ years of production experience** managing **12+ Kubernetes clusters**, **30+ microservices**, and **15+ production environments** across **6 cloud providers** (AWS, Azure, GCP, Digital Ocean, Infomaniak, Exoscale). Achieved **99.9% uptime** for systems serving **200k+ daily active users**. Proven track record of delivering measurable impact: reduced deployment times **from 45 to 8 minutes** (84% improvement), cut service onboarding time by **80%**, decreased infrastructure operations by **70%** through automation, and achieved **35% cloud cost reduction**. Expert in **Infrastructure as Code (Terraform/Terragrunt)**, Kubernetes orchestration, CI/CD automation, enterprise observability, and zero-trust security. Engineered custom platforms managing **50+ nodes** and backup orchestrators protecting **30+ PostgreSQL instances** with **99.99% success rate**. Created reusable infrastructure libraries adopted by **10+ engineering teams**.
+DevOps Engineer with **4+ years of production experience** managing **12+ Kubernetes clusters**, **30+ microservices**, and **12+ production environments** across **6 cloud providers** (AWS, Azure, GCP, Digital Ocean, Infomaniak, Exoscale). Achieved **99.9% uptime** for systems serving **200k+ daily active users**. Proven track record of delivering measurable impact: reduced deployment times **from 45 to 8 minutes** (84% improvement), cut service onboarding time by **80%**, decreased infrastructure operations by **70%** through automation, and achieved **35% cloud cost reduction**. Expert in **Infrastructure as Code (Terraform/Terragrunt)**, Kubernetes orchestration, CI/CD automation, enterprise observability, and zero-trust security. Engineered custom platforms managing **50+ nodes** and backup orchestrators protecting **30+ PostgreSQL instances** with **99.99% success rate**. Created reusable infrastructure libraries adopted by **10+ engineering teams**.
 
 ## Core Technical Skills
 
@@ -34,7 +34,7 @@ DevOps Engineer with **4+ years of production experience** managing **12+ Kubern
 - **Infrastructure Management:** Designed and provisioned multi-cloud infrastructure (AWS, Azure, GCP, Digital Ocean, Infomaniak, Exoscale) using Terraform and Terragrunt, maintaining 12+ production and staging environments with high consistency across 6 cloud providers.
 - **Kubernetes Expertise:** Orchestrated 12+ managed (EKS, AKS, GKE) and self-hosted (RKE2) clusters, implementing Kyverno for policy enforcement and Cert-Manager for automated TLS management across multi-cloud environments.
 - **CI/CD Pipeline Design:** Developed robust GitLab CI and GitHub Actions pipelines featuring automated linting, security best-practice validation, unit testing, multi-stage builds and deployment, reducing deployment time from 45 to 8 minutes.
-- **Observability & Reliability:** Deployed and managed a full-scale observability stack (Grafana, Prometheus, Loki, Mimir) monitoring 150+ services and 100+ metrics; established SLIs/SLOs achieving 99.9% uptime and led on-call rotations, responding to production incidents and conducting post-mortem analyses.
+- **Observability & Reliability:** Deployed and managed a full-scale observability stack (Grafana, Prometheus, Loki, Mimir) monitoring 30+ services and 100+ metrics; established SLIs/SLOs achieving 99.9% uptime and led on-call rotations, responding to production incidents and conducting post-mortem analyses.
 - **Cloud-Native Tooling:** Implemented automated CNPG database backups for 30+ PostgreSQL instances, centralized secret management via Infisical, and zero-trust access control through Teleport.
 - **Automation:** Built internal CLI tools to streamline SRE tasks, reducing common operations time by 70%, and integrated Renovate bot for automated dependency management across 20+ repositories.
 
@@ -42,7 +42,7 @@ DevOps Engineer with **4+ years of production experience** managing **12+ Kubern
 
 *February 2022 – July 2023*
 
-- **Architected Cloud Solutions:** Designed and scaled AWS and Azure infrastructure handling 100k+ daily active users and 10K+ concurrent connections using IaC patterns.
+- **Architected Cloud Solutions:** Designed and scaled AWS and Azure infrastructure handling 200k+ daily active users and 10K+ concurrent connections using IaC patterns.
 - **CI/CD Modernization:** Built and maintained enterprise CI/CD pipelines in Azure DevOps, implementing secure secret injection and optimized build stages.
 - **Cost & Efficiency Optimization:** Implemented rigorous lifecycle policies for ECR/ACR and S3/Blob storage, reducing monthly cloud expenditures by 35%.
 - **Data Protection:** Standardized database scheduled backup strategies (onsite and offsite) to ensure business continuity.
