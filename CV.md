@@ -22,7 +22,7 @@ Highly skilled DevOps Engineer with **4 years of hands-on production experience*
 - **CI/CD Tools:** GitLab CI, GitHub Actions, Azure DevOps.
 - **Observability:** Prometheus, Grafana, Loki, Mimir, CloudWatch, Azure Monitor, Sentry, Cloud Logging and Cloud Monitoring.
 - **Languages & Frameworks:** Python (FastAPI, Litestar, Django Rest Framework, Mesop), Bash.
-- **Security & IAM:** Teleport, HashiCorp Vault (Infisical), Microsoft Entra ID, Cert-Manager, Kyverno.
+- **Security & IAM:** Teleport, HashiCorp Vault, Infisical, 1Password
 - **Networking:** VPC, Site-to-Site VPN, Ingress Nginx, Traefik, Load Balancers.
 
 ## Professional Experience
@@ -117,6 +117,7 @@ Highly skilled DevOps Engineer with **4 years of hands-on production experience*
 
 ## Certifications
 
-- **AWS Certified Solutions Architect – Associate** *(Amazon Web Services)* - [View Certificate](https://www.credly.com/badges/4898bdae-19da-4ce7-b501-4ef43db0737e)
-- **AWS Certified Cloud Practitioner** *(Amazon Web Services)* - [View Certificate](https://www.credly.com/badges/e630c56d-ab6e-4f98-b6da-cfce5263ad38)
-- **IELTS – British Council** *(Overall Band Score: 7.0)* - [View Certificate](https://www.credly.com/badges/bd73fccc-196b-469a-bbb3-9c117ede0373/linked_in_profile)
+- **AWS Certified Solutions Architect – Associate** *(Amazon Web Services)* – [View Certificate](https://www.credly.com/badges/4898bdae-19da-4ce7-b501-4ef43db0737e)
+- **AWS Certified Cloud Practitioner** *(Amazon Web Services)* – [View Certificate](https://www.credly.com/badges/e630c56d-ab6e-4f98-b6da-cfce5263ad38)
+- **IELTS – British Council** *(Overall Band Score: 7.0)*
+- **Verified International Academic Qualifications** *([World Education Services](https://www.wes.org))* – [View Certificate](https://www.credly.com/badges/bd73fccc-196b-469a-bbb3-9c117ede0373/linked_in_profile)
