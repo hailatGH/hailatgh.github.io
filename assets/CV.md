@@ -8,7 +8,7 @@
 
 ## Professional Summary
 
-Highly skilled DevOps Engineer with **4+ years of production experience** specializing in multi-cloud infrastructure, Kubernetes orchestration, and CI/CD automation. Proven expertise in designing scalable, high-availability systems across **AWS, Azure, GCP**, and European cloud providers. Expert in **Infrastructure as Code (Terraform/Terragrunt)**, cloud-native security, and enterprise observability, consistently improving deployment frequency and system reliability.
+DevOps Engineer with **4+ years of production experience** managing **12+ Kubernetes clusters**, **30+ microservices**, and **15+ production environments** across **6 cloud providers** (AWS, Azure, GCP, Digital Ocean, Infomaniak, Exoscale). Achieved **99.9% uptime** for systems serving **200k+ daily active users**. Proven track record of delivering measurable impact: reduced deployment times **from 45 to 8 minutes** (84% improvement), cut service onboarding time by **80%**, decreased infrastructure operations by **70%** through automation, and achieved **35% cloud cost reduction**. Expert in **Infrastructure as Code (Terraform/Terragrunt)**, Kubernetes orchestration, CI/CD automation, enterprise observability, and zero-trust security. Engineered custom platforms managing **50+ nodes** and backup orchestrators protecting **30+ PostgreSQL instances** with **99.99% success rate**. Created reusable infrastructure libraries adopted by **10+ engineering teams**.
 
 ## Core Technical Skills
 
