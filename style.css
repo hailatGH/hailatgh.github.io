@@ -92,6 +92,7 @@ a:hover {
 .section p {
     margin-bottom: 15px;
     line-height: 1.8;
+    text-align: justify;
 }
 
 /* Projects */
