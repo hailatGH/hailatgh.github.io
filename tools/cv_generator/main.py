@@ -11,10 +11,12 @@ def generate_pdf_weasyprint():
         year = now.strftime("%Y")  # 2026
         filename = f"{month}_{day}_{year}_CV.pdf"
         
-        current_dir = Path(__file__).parent
-        html_file = current_dir / "src" / "main.html"
-        output_file = current_dir / "docs" / filename
-        latest_output_file = current_dir / "docs" / "latest_CV.pdf"
+        static_dir = Path(__file__).parent / "static"
+        html_file = static_dir / "main.html"
+
+        asset_dir = Path(__file__).parent.parent.parent / "assets"
+        output_file = asset_dir / filename
+        latest_output_file = asset_dir / "latest_CV.pdf"
         
         print("Generating SINGLE PAGE PDF using weasyprint...")
         print(f"Input: {html_file}")
