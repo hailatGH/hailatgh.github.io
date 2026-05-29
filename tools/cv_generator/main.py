@@ -25,7 +25,7 @@ def generate_pdf_weasyprint():
         
         css_style = '''
             @page {
-                size: 210mm 1200mm;  /* A4 width, auto height */
+                size: 210mm 1300mm;  /* A4 width, auto height */
                 margin: 1cm;
             }
             body {
