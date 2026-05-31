@@ -57,22 +57,22 @@ DevOps Engineer with **4+ years of production experience** managing **12+ Kubern
 
 ## Featured Projects
 
-### **Custom Kubernetes Platform**
+### **Multi-Cloud K8s Provisioner**
 - **Problem Solved:** Overcame the lack of managed Kubernetes services on niche cloud providers by engineering a custom solution to achieve automated lifecycle management and horizontal cluster autoscaling.
 - **Tools Used:** Python, RKE2, Terraform, Terragrunt, Cloud-Init, Packer, Envoy, Ansible
 - **Impact:** Built automation framework provisioning self-hosted RKE2 clusters using custom CRDs and Terraform, managing 8 production clusters and 50+ nodes with 95% reduction in manual deployment effort.
 
-### **Database Backup Orchestrator**
+### **Cloud-Native Database Backup Orchestrator**
 - **Problem Solved:** Addressed the need for a non-invasive, decentralized backup mechanism for diverse CNPG workloads running on Kubernetes.
 - **Tools Used:** Python, Kubernetes API, S3-Compatible Storage (MinIO/AWS S3), Poetry.
 - **Impact:** Built K8s-native backup automation using resource annotations to auto-discover and backup 30+ database instances with 99.99% success rate, supporting multi-cloud retention and offsite synchronization without manual configuration.
 
-### **Multi-Tenant VPN Gateway**
+### **Enterprise Site-to-Site VPN**
 - **Problem Solved:** Resolved complex secure connectivity requirements for third-party clients needing isolated access to internal Kubernetes services without compromising the primary network.
 - **Tools Used:** StrongSwan (IPsec), Terragrunt, OpenStack, Bash.
 - **Impact:** Architected a multi-tenant VPN relay system using a *unique two-hop IPsec tunnel* (`Customer <-> Relay VM <-> K8s Pod`), supporting 8 concurrent client connections. Ensured network isolation and unique NAT-T port mapping for multiple providers while centralizing traffic management.
 
-### **Universal Helm Template**
+### **Versatile Helm Chart**
 - **Problem Solved:** Eliminated "configuration drift" and duplicated Helm code across dozens of microservices.
 - **Tools Used:** Helm, Kubernetes, YAML.
 - **Impact:** Created a versatile "Standard Library" Helm chart that supports both `Deployment` and `StatefulSet` via simple value toggles, adopted by 60+ microservices. Included pre-configured patterns for Ingress Nginx, Traefik, Cert-Manager, and horizontal autoscaling, *reducing new service onboarding time by 80%*.

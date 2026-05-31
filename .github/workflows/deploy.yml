@@ -24,6 +24,35 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      - name: Install Poetry
+        uses: snok/install-poetry@v1
+        with:
+          version: latest
+          virtualenvs-create: true
+          virtualenvs-in-project: true
+
+      - name: Install dependencies
+        working-directory: tools/cv_generator
+        run: poetry install --no-interaction --no-root
+
+      - name: Generate CV PDF
+        run: poetry run python tools/cv_generator/main.py
+
+      - name: Commit generated PDF
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add assets/*.pdf
+          git diff --quiet && git diff --staged --quiet || git commit -m "chore: update CV PDF [skip ci]"
+          git push
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
