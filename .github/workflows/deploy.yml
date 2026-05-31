@@ -55,13 +55,20 @@ jobs:
           git diff --quiet && git diff --staged --quiet || git commit -m "chore: update CV PDF [skip ci]"
           git push
 
+      - name: Prepare deployment directory
+        run: |
+          mkdir -p _site
+          cp -r assets _site/
+          cp index.html style.css README.md _site/
+          ls -la _site/
+
       - name: Setup Pages
         uses: actions/configure-pages@v4
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: '.'
+          path: '_site'
 
       - name: Deploy to GitHub Pages
         id: deployment
