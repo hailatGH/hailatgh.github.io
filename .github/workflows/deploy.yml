@@ -44,7 +44,8 @@ jobs:
         run: poetry install --no-interaction --no-root
 
       - name: Generate CV PDF
-        run: poetry run python tools/cv_generator/main.py
+        working-directory: tools/cv_generator
+        run: poetry run python main.py
 
       - name: Commit generated PDF
         run: |
