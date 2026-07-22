@@ -4,7 +4,7 @@
 
 *Addis Ababa, Ethiopia* | +251 912 828397 | [hailemichael.atrsaw@gmail.com](mailto:hailemichael.atrsaw@gmail.com)
 
-[LinkedIn](https://www.linkedin.com/in/hailat/) • [GitHub](https://github.com/hailatGH)
+[LinkedIn](https://www.linkedin.com/in/hailat/) • [GitHub](https://github.com/hailatGH) • [Portfolio](https://hailatgh.github.io)
 
 ## Professional Summary
 
