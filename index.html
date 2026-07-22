@@ -38,6 +38,13 @@
                     spending, achieving <strong>35% cost reduction</strong> through automated lifecycle management.
                 </p>
                 <p>
+                    <strong>Key Enterprise Deployments:</strong> I've architected and deployed production infrastructure for 
+                    <strong>Africa CDC</strong> (Azure-based health information exchange and disease reporting platforms), 
+                    <strong>VITAL WorkLife</strong> (GCP-based PHI-compliant case tracking), 
+                    <strong>KGI Fintech</strong> (AWS fintech/insurance platform), and 
+                    <strong>Dixence</strong> (Swiss managed Kubernetes provider on OpenStack).
+                </p>
+                <p>
                     Beyond infrastructure automation, I design enterprise observability stacks (Prometheus, Grafana, Loki, Mimir), 
                     implement zero-trust security patterns, lead on-call rotations, and build CI/CD pipelines that enforce 
                     security best practices. Previously, I developed high-performance APIs as a Backend Developer, giving me 
@@ -73,6 +80,61 @@
                     </div>
 
                     <div class="project-card">
+                        <h3>Africa CDC HIEMAT (Azure)</h3>
+                        <p>Health Information Exchange platform on Azure with Container Apps, PostgreSQL, Key Vault, Service Bus, and smart CI/CD with change-detection matrix builds and OIDC authentication.</p>
+                        <div class="tags">
+                            <span class="tag">Azure</span>
+                            <span class="tag">Terraform</span>
+                            <span class="tag">Terragrunt</span>
+                            <span class="tag">GitHub Actions</span>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <h3>Africa CDC CDR (Azure)</h3>
+                        <p>Containerized Disease Reporting platform with Azure Container Apps, OpenMetadata, Apache Superset, Airflow, and Data Factory. Dynamic secret injection via managed identities.</p>
+                        <div class="tags">
+                            <span class="tag">Azure</span>
+                            <span class="tag">OpenTofu</span>
+                            <span class="tag">Terragrunt</span>
+                            <span class="tag">Docker</span>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <h3>VITAL WorkLife Case Tracking (GCP)</h3>
+                        <p>PHI-compliant case-tracking platform on GCP with Cloud Run, Cloud SQL, Firebase Auth, BigQuery, Datastream CDC, and ephemeral preview environments with automated DB cloning.</p>
+                        <div class="tags">
+                            <span class="tag">GCP</span>
+                            <span class="tag">Cloud Run</span>
+                            <span class="tag">OpenTofu</span>
+                            <span class="tag">Terragrunt</span>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <h3>KGI Fintech Platform (AWS)</h3>
+                        <p>Full AWS fintech infrastructure with ECS Fargate, RDS PostgreSQL, 13 SQS queues, Site-to-Site IPSec VPN to on-premises, and self-provisioning CI/CD via Terraform.</p>
+                        <div class="tags">
+                            <span class="tag">AWS</span>
+                            <span class="tag">ECS Fargate</span>
+                            <span class="tag">Terraform</span>
+                            <span class="tag">VPN</span>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <h3>Dixence Managed K8s (OpenStack)</h3>
+                        <p>Complete infrastructure for a Swiss K8s provider on Infomaniak OpenStack: RKE2 clusters, GitLab, Grafana/Loki/Mimir, Teleport, Envoy Gateway, and CloudNativePG with Barman Cloud backups.</p>
+                        <div class="tags">
+                            <span class="tag">OpenStack</span>
+                            <span class="tag">RKE2</span>
+                            <span class="tag">OpenTofu</span>
+                            <span class="tag">Teleport</span>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
                         <h3>Versatile Helm Chart</h3>
                         <p>Versatile Helm chart library adopted by 60+ microservices, reducing new service onboarding time by 80%. Includes patterns for Ingress Nginx, Traefik, Cert-Manager, and autoscaling.</p>
                         <div class="tags">
@@ -101,7 +163,7 @@
                 <div class="skills-grid">
                     <div class="skill-category">
                         <h4>Cloud Platforms</h4>
-                        <p>AWS, Azure, GCP, Digital Ocean, Infomaniak, Exoscale, Hetzner</p>
+                        <p>AWS, Azure, GCP, Digital Ocean, Infomaniak, Exoscale, Hetzner, OpenStack</p>
                     </div>
                     <div class="skill-category">
                         <h4>Orchestration</h4>
@@ -109,7 +171,7 @@
                     </div>
                     <div class="skill-category">
                         <h4>Infrastructure as Code</h4>
-                        <p>Terraform, Terragrunt, Ansible, Packer</p>
+                        <p>Terraform, Terragrunt, OpenTofu, Ansible, Packer</p>
                     </div>
                     <div class="skill-category">
                         <h4>Observability</h4>
@@ -117,7 +179,7 @@
                     </div>
                     <div class="skill-category">
                         <h4>CI/CD</h4>
-                        <p>GitLab CI, GitHub Actions, Azure DevOps</p>
+                        <p>GitLab CI, GitHub Actions, Azure DevOps, Dependabot</p>
                     </div>
                     <div class="skill-category">
                         <h4>Programming</h4>
